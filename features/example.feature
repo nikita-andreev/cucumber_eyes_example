@@ -16,9 +16,5 @@ Feature: cucumber capybara example
     Given I visit "https://github.com"
     Then entire page should match a baseline
 
-  Scenario: Check element
-    Given I visit "https://github.com"
-    Then element "" should match a baseline
-
   Scenario: Close eyes
     Then all tests should be successful
